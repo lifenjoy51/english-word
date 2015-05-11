@@ -58,4 +58,4 @@ def load():
 
 if __name__ == "__main__":
     load()  # 시작할 때 파일에서 불러온다.
-    app.run()
+    app.run(host='0.0.0.0')
